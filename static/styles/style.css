@@ -1,0 +1,29 @@
+body{
+    background-color: cyan;
+}
+
+#banner{
+    width:  1800px;
+    height: 400px;
+    margin-left: 2.5%;
+}
+
+h1{
+    text-align: center;
+}
+
+#pintar{
+    background-color: blue;
+}
+
+.par1{
+    text-align: center;
+}
+
+.par2{
+    text-align: right;
+}
+
+em strong {
+    color: gold;
+}

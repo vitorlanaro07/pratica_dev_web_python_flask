@@ -1,0 +1,23 @@
+address{
+    background-color: blueviolet;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: brown;
+}
+
+a{
+    color: white;
+    animation: alternate alternate-reverse;
+}
+
+div{
+    border: 2px solid chartreuse;
+    padding: 30px;
+    padding-left: 20%;
+    padding-right: 15%;
+    margin: 50px;
+}
