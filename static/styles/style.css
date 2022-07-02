@@ -1,20 +1,29 @@
 body{
-    background-color: cyan;
+    background-color: rebeccapurple;
+}
+
+#principal{
+    background-color: blueviolet;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 #banner{
-    width:  1800px;
-    height: 400px;
-    margin-left: 2.5%;
+    width: 90%;
+    height: 250px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
-h1{
+.cabecalho{
+    padding-left: 10%;
+}
+
+.alinhar_principal{
     text-align: center;
+    margin-bottom: 100px;
 }
 
-#pintar{
-    background-color: blue;
-}
 
 .par1{
     text-align: center;
@@ -25,5 +34,31 @@ h1{
 }
 
 em strong {
-    color: gold;
+    color: red;
+}
+
+#pro{
+    background-color: blueviolet;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div h2{
+    background-color: white;
+}
+
+#list_prop{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30%;
+    padding-top: 4%;
+    font-size: 200%;
+}
+
+.list_prop{
+    font-style: italic;
+}
+
+#img_pro{
+    padding-left: 20%;
 }
