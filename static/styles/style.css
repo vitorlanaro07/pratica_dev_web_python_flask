@@ -1,73 +1,40 @@
-body{
-    background-color: rebeccapurple;
+.container{
+    border:1px solid red;
+    text-align:-moz-center;
+    padding: 15px;
+}
+table{
+    width: 100%;
 }
 
-#principal{
-    background-color: blueviolet;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-#banner{
-    width: 90%;
-    height: 250px;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.cabecalho{
-    padding-left: 10%;
-}
-
-.alinhar_principal{
+tbody, td, tfoot, th, thead, tr {
+	border: 2px solid black;
+    padding: 15px;
     text-align: center;
-    margin-bottom: 2%;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-
-.par1{
-    text-align: center;
+thead{
+    background-color:gray;
 }
 
-.par2{
-    text-align: right;
+button, input {
+	margin: 10px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	border: none;
+	font-size: 28px;
+	background: #ececc2;
+	box-shadow: 1px 1px 1px 1px black;
+	border-radius: 17px;
+	padding: 13px;
+	display: block;
 }
 
-em strong {
-    color: red;
-}
-
-#rodape{
-    background-color: blueviolet;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-#propriedades{
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    text-align: center;
-}
-
-div h2{
-    background-color: white;
-}
-
-#list_prop{
-    padding-left: 25%;
-    font-size: 200%;
-}
-
-.list_prop{
-    font-style: italic;
-}
-
-#imagem_roda{
-    display: inline-block;
-    width: 49%;
-}
-
-#img_pro{
-    padding-left: 16%;
+label{
+    display:block;
+    font-size: 28px;
+    font-weight: bold;
 }

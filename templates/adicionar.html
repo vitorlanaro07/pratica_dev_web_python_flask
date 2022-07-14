@@ -1,0 +1,14 @@
+{%extends "template.html"%}
+{%block conteudo%}
+    <div class="container">
+        <form action="/novo" method="post">
+            <label for="cor">Cor</label>
+            <input type="text" id="cor" name="cor">
+
+            <label for="rate">Rate</label>
+            <input type="text" id="rate" name="rate">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+{%endblock%}

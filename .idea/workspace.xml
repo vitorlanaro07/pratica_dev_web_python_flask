@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3579b7d6-549b-46a4-bd88-ea28abbdaed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/styles/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pingo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/barba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/cabelo+barba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/cabelo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/logo-branco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/pagina.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/alura/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/Studio Bor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/cabecalho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/elder_ring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/ghost.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/god_of_war.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/imagem/horizon.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/styles/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/bincando_de_css_html/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/treino/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/HTML+CSS/treino/treino.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/pag2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/pag3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_web/pag4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pagina2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempo.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bo3KCEyzhD1ifpKfyP8QTtDLpx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NewProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3579b7d6-549b-46a4-bd88-ea28abbdaed1" name="Changes" comment="" />
+      <created>1657558543457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657558543457</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
