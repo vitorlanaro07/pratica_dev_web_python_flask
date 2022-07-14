@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <title>Contato</title>
+    <link rel='stylesheet' href='reset.css'>
+    <link rel="stylesheet" href="pagina_contato.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href=""><h1><img src="logo.png" alt="Logo da Barbearia"></h1></a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome*</label>
+            <input type="text" id="nomesobrenome" name="nomesobrenome" class="input_padrao" required>
+
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" name="email" class="input_padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone*</label>
+            <input type="tel" id="telefone" name="telefone" class="input_padrao" required placeholder="(DDD) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem*</label>
+            <textarea cols="70" rows="10" name="mensagem" class="input_padrao" required></textarea>
+            
+
+            <fieldset>     
+                <legend>Como prefere receber nosso contato?</legend>
+                <label>
+                    <input type="radio" value="email-radio" name="ser_contato">Email</label>
+                <label>
+                    <input type="radio" value="telefone" name="ser_contato">Telefone</label>
+                <label>
+                    <input type="radio" value="whatsapp" name="ser_contato" checked> WhatsApp</label>   
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+             
+            <label>
+                <input type="checkbox" value="sim" name="gostaria" checked>Gostaria de receber novidades por email?</label>
+            
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+
+        <table>
+            <thead>
+                <th>Dia</th>
+                <th>Horarios</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda-Feira</td>
+                    <td>08:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                    <td>Quarta-Feira</td>
+                    <td>08:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                    <td>Sexta-Feira</td>
+                    <td>08:00 ~ 21:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="Logo da Barbearia">
+        <p class="rodape">&copy; Copyright todos seus direitos resevados</p>
+    </footer>
+</body>
+</html>
