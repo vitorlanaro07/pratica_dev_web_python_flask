@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #bee0ff;
+}
+
+.cartoes {
+    padding: 8px 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cartao {
+    
+    background-color: #23748d;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #0000002a;
+}

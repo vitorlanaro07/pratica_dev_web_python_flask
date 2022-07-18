@@ -33,10 +33,10 @@ def adicionar():
 
 @app.route("/novo", methods=["GET", "POST"])
 def novo():
-    print("ok")
     id = len(lista)
     cor = request.form['cor']
-    rate = request.form['rate']
+    rate = request.form.get('rate')
+    print(rate)
     lista.append(Cor(id, cor, rate))
     return redirect("/")
 

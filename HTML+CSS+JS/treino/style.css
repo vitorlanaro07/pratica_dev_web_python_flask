@@ -2,6 +2,16 @@ body{
     height: 300vh;
 }
 
+.corpo{
+    background-color: white;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+
+
 #content{
     position: relative;
     border: 5px solid red;
@@ -60,4 +70,12 @@ body{
     text-transform: uppercase;
     font-weight: bolder;
     color: black;
+}
+
+.texto{
+    visibility: visible;
+}
+
+.texto--desativado{
+    visibility: hidden;
 }

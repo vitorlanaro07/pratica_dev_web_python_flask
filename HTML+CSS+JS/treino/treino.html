@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset='utf-8'>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="../reset.css">
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body class="corpo">
+        <header>
+
+            <div id="content">
+                <div id="box">
+                    <p class="ola">Olá</p>
+                </div>
+                <div id="box2"></div>
+            </div>
+
+            <nav>
+                <div id="column">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Produtos</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Venha trabalhar conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+
+        <div class="conteudo">
+            <button class="botao">Clicar</button>
+        </div>
+        <h1 class="texto">Hello My friend</h1>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+<!-- <html>
+  <head>
+    <script>
+       // run this function when the document is loaded
+       window.onload = function() {
+
+         // create a couple of elements in an otherwise empty HTML page
+         var heading = document.createElement("h1");
+         var heading_text = document.createTextNode("Big Head!");
+         heading.appendChild(heading_text);
+         document.body.appendChild(heading);
+         document.body.style.backgroundColor = "yellow";
+      }
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html> -->
+
+<!-- 
+<html>
+  <head>
+    <title>Testes DOM</title>
+    <script type="application/javascript">
+    function setBodyAttr(attr, value){
+      if (document.body) eval('document.body.'+attr+'="'+value+'"');
+      else notSupported();
+    }
+    </script>
+  </head>
+  <body>
+    <div style="margin: .5in; height: 400;">
+      <p><b><tt>text</tt></b></p>
+      <form>
+        <select onChange="setBodyAttr('text',
+        this.options[this.selectedIndex].value);">
+          <option value="black">preto
+          <option value="darkblue">azul escuro
+        </select>
+        <p><b><tt>bgColor</tt></b></p>
+        <select onChange="setBodyAttr('bgColor',
+        this.options[this.selectedIndex].value);">
+          <option value="white">branco
+          <option value="lightgrey">cinza
+        </select>
+        <p><b><tt>link</tt></b></p>
+        <select onChange="setBodyAttr('link',
+        this.options[this.selectedIndex].value);">
+          <option value="blue">azul
+          <option value="green">verde
+        </select>  <small>
+        <a href="http://algum.website.tld/pagina.html" id="amostra">
+        (link)</a></small><br>
+      </form>
+      <form>
+        <input type="button" value="version" onclick="ver()" />
+      </form>
+    </div>
+  </body>
+</html> -->

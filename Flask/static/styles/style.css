@@ -1,5 +1,4 @@
 .container{
-    border:1px solid red;
     text-align:-moz-center;
     padding: 15px;
 }
@@ -21,20 +20,26 @@ thead{
 
 button, input {
 	margin: 10px;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
 	border: none;
 	font-size: 28px;
 	background: #ececc2;
 	box-shadow: 1px 1px 1px 1px black;
 	border-radius: 17px;
 	padding: 13px;
-	display: block;
 }
 
 label{
     display:block;
     font-size: 28px;
     font-weight: bold;
+}
+
+.botao_enviar{
+    display: block;
+}
+
+.rate {
+    width: 5%;
+    font-size: 3em;
+    height: 5%;
 }

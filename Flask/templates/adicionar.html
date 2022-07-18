@@ -5,10 +5,19 @@
             <label for="cor">Cor</label>
             <input type="text" id="cor" name="cor">
 
-            <label for="rate">Rate</label>
-            <input type="text" id="rate" name="rate">
+            <div>
+                <label for="rate">Rate</label>
+                <select class="rate" id="rate" name="rate">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
 
-            <input type="submit" value="Enviar">
+            <input class="botao_enviar" type="submit" value="Enviar">
+            
         </form>
     </div>
 {%endblock%}
