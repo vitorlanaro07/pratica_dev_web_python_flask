@@ -28,6 +28,11 @@
 							<th>IMC</th>
 						</tr>
 					</thead>
+
+					<label id="pesquisa-paciente__label" for="pesquisa-paciente">Buscar Paciente</label>
+					<input type="text" id="pesquisa-paciente" placeholder="Informe o paciente que deseja buscar">
+
+
 					<tbody id="tabela-pacientes">
 						<tr class="paciente" >
 							<td class="info-nome">Paulo</td>
@@ -52,7 +57,6 @@
 							<td class="info-gordura">14</td>
 							<td class="info-imc">0</td>
 						</tr>
-
 						<tr class="paciente">
 							<td class="info-nome">Douglas</td>
 							<td class="info-peso">85</td>
@@ -60,30 +64,30 @@
 							<td class="info-gordura">24</td>
 							<td class="info-imc">0</td>
 						</tr>
-						<tr class="paciente" >
+						<tr class="paciente">
 							<td class="info-nome">Tatiana</td>
 							<td class="info-peso">46</td>
 							<td class="info-altura">1.55</td>
 							<td class="info-gordura">19</td>
 							<td class="info-imc">0</td>
 						</tr>
-						<tr class="paciente" >
+						<tr class="paciente">
 							<td class="info-nome">Vitor</td>
 							<td class="info-peso">72</td>
-							<td class="info-altura">3.00</td>
-							<td class="info-gordura">12</td>
+							<td class="info-altura">10.55</td>
+							<td class="info-gordura">19</td>
 							<td class="info-imc">0</td>
 						</tr>
-						<tr class="paciente" >
-							<td class="info-nome">Cristina</td>
-							<td class="info-peso">56</td>
-							<td class="info-altura">1.65</td>
-							<td class="info-gordura">16</td>
+						<tr class="paciente">
+							<td class="info-nome">Cristian</td>
+							<td class="info-peso">1000</td>
+							<td class="info-altura">2</td>
+							<td class="info-gordura">19</td>
 							<td class="info-imc">0</td>
 						</tr>
 					</tbody>
 				</table>
-
+				<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
 			</section>
 
 			<section class="container">
@@ -105,12 +109,19 @@
 						<label for="gordura">% de Gordura:</label>
 						<input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
 					</div>
-			
+					
+
 					<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+
+					<ul id="mensagens-erro"></ul>
 				</form>
 			</section>
 		</main>
 	
-	<script src="js/principal.js"></script>
+	<script src="js/calculaIMC.js"></script>
+	<script src="js/adicionaPaciente.js"></script>
+	<script src="js/removePaciente.js"></script>
+	<script src="js/filtrarPaciente.js"></script>
+	<script src="js/buscarPaciente.js"></script>
 	</body>
 </html>

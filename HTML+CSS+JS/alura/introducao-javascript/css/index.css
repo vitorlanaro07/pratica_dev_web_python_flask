@@ -136,3 +136,31 @@ button[disabled=disabled], button:disabled {
 .valor-invalido{
 	background-color: red;
 }
+
+#mensagens-erro{
+	color: red;
+    display: block;
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+.escurecerParaApagar{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+#pesquisa-paciente{
+	width: 250px;
+	height: 40px;
+	font-size: 1em;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+#pesquisa-paciente__label{
+	font-size: 2.5em;
+	color: black;
+	margin: 10px 0;
+}
+
