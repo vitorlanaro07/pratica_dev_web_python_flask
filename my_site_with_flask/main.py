@@ -4,6 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("base.html")
 
-app.run(host="localhost", port=5000, debug=True)
+
+@app.route("/task")
+def task():
+    return render_template("task.html")
+
+app.run(host="192.168.0.103", port=5000, debug=True)

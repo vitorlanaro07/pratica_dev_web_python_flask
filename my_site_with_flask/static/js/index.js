@@ -1,6 +1,7 @@
-var botao = document.querySelector("#btn");
+var menu = document.querySelector(".menu-dropdown");
+var botao = document.querySelector(".btn-dropdown");
 
-botao.addEventListener("click", function(event){
-    event.preventDefault();
-    console.log("Fui clicado");
+botao.addEventListener("click", function(){
+    console.log("CLik");
+    menu.classList.toggle("menu-dropdown--ativo");
 })

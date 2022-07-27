@@ -2,12 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3579b7d6-549b-46a4-bd88-ea28abbdaed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/js/adicionaPaciente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/js/calculaIMC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/album-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/album/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/brand/bootstrap-logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/brand/bootstrap-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/assets/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/blog-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/blog/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/blog/blog.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/carousel-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/carousel/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/carousel/carousel.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/carousel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cheatsheet-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cheatsheet/cheatsheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cheatsheet/cheatsheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cheatsheet/cheatsheet.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cheatsheet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/checkout-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/checkout/form-validation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/checkout/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/checkout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cover/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/cover/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard-rtl/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard/dashboard.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dropdowns/dropdowns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/dropdowns/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/features/features.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/features/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/features/unsplash-photo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/features/unsplash-photo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/features/unsplash-photo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/footers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/grid/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/headers/headers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/headers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/heroes/bootstrap-docs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/heroes/bootstrap-themes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/heroes/heroes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/heroes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/jumbotron/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/list-groups/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/list-groups/list-groups.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/masonry/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/modals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/modals/modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbar-bottom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbar-fixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbar-fixed/navbar-top-fixed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbar-static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbar-static/navbar-top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbars-offcanvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbars-offcanvas/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbars/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/navbars/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/offcanvas-navbar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/offcanvas-navbar/offcanvas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/offcanvas-navbar/offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/offcanvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/pricing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/pricing/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/product/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/product/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sidebars/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sidebars/sidebars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sidebars/sidebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sign-in/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sign-in/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/starter-template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/starter-template/starter-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sticky-footer-navbar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sticky-footer-navbar/sticky-footer-navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sticky-footer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-5.2.0-examples/sticky-footer/sticky-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_site_with_flask/static/css/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_site_with_flask/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_site_with_flask/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/js/principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML+CSS+JS/alura/introducao-javascript/js/principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML+CSS/alura/flex_blox_and_grid_introducao/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site_with_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_site_with_flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site_with_flask/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my_site_with_flask/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site_with_flask/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_site_with_flask/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site_with_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_site_with_flask/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site_with_flask/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_site_with_flask/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +125,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/vitorlanaro/Workspace/NewProject/my_site_with_flask"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_site_with_flask/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NewProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,8 +161,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NewProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_site_with_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_site_with_flask/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
