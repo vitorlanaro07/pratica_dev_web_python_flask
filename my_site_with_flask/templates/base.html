@@ -19,28 +19,30 @@
       <btn class="btn-dropdown">
         <i class="fas fa-bars fa-fw fa-xl"></i>
       </btn>
-      <div class="menu-dropdown menu-dropdown--ativo">
-        <div class="cabecalho__btns">
-          <button class="cabecalho__btn">Login</button>
-          <button class="cabecalho__btn">Cadastro</button>
-        </div>
-        <ul class="cabecalho__menu">
-          <a href="" class="cabecalho__item">
-            <li class="cabecalho__link">Menu</li>
-          </a>
-          <a href="" class="cabecalho__item">
-            <li class="cabecalho__link">Contato</li>
-          </a>
-          <a href="/task" class="cabecalho__item">
-            <li class="cabecalho__link">Task's</li>
-          </a>
-        </ul>
+    </div>
+    <div class="menu-dropdown menu-dropdown--ativo">
+      <div class="cabecalho__btns">
+        <button class="cabecalho__btn">Login</button>
+        <button class="cabecalho__btn">Cadastro</button>
       </div>
+      <ul class="cabecalho__menu">
+        <a href="" class="cabecalho__item">
+          <li class="cabecalho__link">Menu</li>
+        </a>
+        <hr class="divisor">
+        <a href="" class="cabecalho__item">
+          <li class="cabecalho__link">Contato</li>
+        </a>
+        <hr class="divisor">
+        <a href="/task" class="cabecalho__item active">
+          <li class="cabecalho__link">Task's</li>
+        </a>
+      </ul>
     </div>
   </header>
 
   <main class="conteudo">
-    <div class="painel__lateral">
+    <!-- <div class="painel__lateral">
       <i class="fa-solid fa-user-tie fa-5x"></i>
       <img src="" alt="" class="painel__avatar">
       <ul class="painel__lista">
@@ -48,7 +50,7 @@
         <li class="painel__itens"><a href="#" class="painel__links">Artigos</a></li>
         <li class="painel__itens"><a href="#" class="painel__links">Publicações</a></li>
       </ul>
-    </div>
+    </div> -->
 
     <div class="conteudo__central">
       {% block content %}

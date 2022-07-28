@@ -6,7 +6,6 @@ body{
   background-color: #0072B5;
   width: 100%;
   height: 10vh;
-  z-index: 100;
 }
 
 .cabecalho__content{
@@ -17,17 +16,15 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 0px 1em;
-  z-index: 100;
   border-bottom: 1px solid black;
+  position: relative;
 }
 .cabecalho__logo{
   font-size: 3.3em;
-  z-index: 100;
 }
 
 .btn-dropdown{
   font-size: 1.5em;
-  z-index: 100;
 }
 
 
@@ -35,51 +32,44 @@ body{
   display: flex;
   flex-direction: row;
   font-size: 1.5em;
-  z-index: 100;
 }
 
 .menu-dropdown{
   display: flex;
-  position: absolute;
+  position: relative;
   background-color: #A09998;
-  top: 10vh;
-  left: 0vh;
   width: 100%;
-  height: 26vh;
+  height: 33vh;
   justify-content: center;
   transition: 500ms;
-  z-index: -1;
   align-items: center;
   flex-direction: column;
-  border-bottom: 1px solid black;
+  z-index: 1;
 }
 
 .menu-dropdown--ativo{
   display: flex;
-  position: absolute;
+  position: relative;
   background-color: #A09998;
-  top: -26vh;
-  left: 0vh;
+  top: -50vh;
   width: 100%;
   height: auto;
   justify-content: center;
   transition: 500ms;
-  z-index: -1;
   align-items: center;
   flex-direction: column;
-  border-bottom: 1px solid black;
 }
 
 .cabecalho__menu{
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .cabecalho__item{ 
   display: inline;
   margin-bottom: 5px;
-  border-bottom: 1px solid white;
-  width: 38vh;
+  width: 75vw;
   padding: 1vh 0;
   font-size: 1.5em;
 }
@@ -93,6 +83,7 @@ body{
 .cabecalho__btn{
   font-size: 1em;
   border-radius: 0.7em;
+  margin: 2vh;
 }
 
 .cabecalho__btn:hover{
@@ -110,16 +101,24 @@ body{
   color: #f1ba55;
 }
 
-/* .conteudo{
-  z-index: -2;
-  width: 85%;
-  margin: 0 auto;
-  background-color: #f1ba55;
-  display: flex;
-} */
+.active{
+  background-color: white;
+  color: black;
+}
+
+.divisor{
+  width: 75vw;
+}
+
+.divisor-botom{
+  margin-bottom: 3vh;
+}
+
+.conteudo{
+  position: relative;
+}
 
 .painel__lateral{
-  z-index: -2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,8 +138,7 @@ body{
 
 .conteudo__central{
   display: flex;
-  width: 80%;
-  z-index: -1;
+  width: 100%;
 }
 
 
@@ -155,17 +153,19 @@ body{
 }
 
 .tasks__titulo{
-  font-size: 2em;
+  font-size: 2.5em;
   font-style: italic;
-  margin-left: 13%;
+  text-align: center;
 }
+
 .tasks__forms{
   border: 1px solid black;
   border-radius: 8px;
-  width: 74%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  font-size: 1.2em;
   align-items: center;
 }
 
@@ -176,20 +176,45 @@ body{
 }
 
 .tasks__forms-input{
-  font-size: 1em;
-  width: 54%;
-  height: 10%;
+  width: 75vw;
+  height: 5vh;
+  font-size: 1.2em;
+  font-family: auto;
 }
 
 .tasks__forms-textarea{
-  font-size: 1.3em;
-  height: 10vh;
-  width: 80%;
+  font-size: 1.2em;
+  height: 18vh;
+  width: 75vw;
+  font-family: auto;
 }
 
 .tasks__btn{
-  width: 10px;
-  height: 10px;
+  width: 26vw;
+  height: 5vh;
+  font-size: 1.2em;
+  margin: 2vh 0;
+}
+
+.tasks__apresentar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tasks__cards{
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  font-size: 1.15em;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-bottom: 5vh;
+}
+
+.tasks__cards__iten{
+  margin: 0.5vh 0;
 }
 
 @media(max-width: 450px){
