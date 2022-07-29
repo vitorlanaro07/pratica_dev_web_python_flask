@@ -18,6 +18,7 @@ body{
   padding: 0px 1em;
   border-bottom: 1px solid black;
   position: relative;
+  box-shadow: 1px 1px 12px -2px;
 }
 .cabecalho__logo{
   font-size: 3.3em;
@@ -39,25 +40,26 @@ body{
   position: relative;
   background-color: #A09998;
   width: 100%;
-  height: 33vh;
+  height: 42vh;
   justify-content: center;
-  transition: 500ms;
   align-items: center;
   flex-direction: column;
   z-index: 1;
+  transition: 600ms;
+  opacity: 1;
+  box-shadow: 0px 7px 11px -6px black;
 }
 
 .menu-dropdown--ativo{
   display: flex;
   position: relative;
   background-color: #A09998;
-  top: -50vh;
-  width: 100%;
-  height: auto;
+  top: -74vh;
   justify-content: center;
-  transition: 500ms;
+  transition: 600ms;
   align-items: center;
   flex-direction: column;
+  opacity: 0;
 }
 
 .cabecalho__menu{
@@ -167,6 +169,7 @@ body{
   flex-direction: column;
   font-size: 1.2em;
   align-items: center;
+  box-shadow: 1px 1px 11px black;
 }
 
 .tasks__label{
@@ -178,19 +181,19 @@ body{
 .tasks__forms-input{
   width: 75vw;
   height: 5vh;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: auto;
 }
 
 .tasks__forms-textarea{
-  font-size: 1.2em;
+  font-size: 1.059em;
   height: 18vh;
   width: 75vw;
   font-family: auto;
 }
 
 .tasks__btn{
-  width: 26vw;
+  width: auto;
   height: 5vh;
   font-size: 1.2em;
   margin: 2vh 0;
@@ -203,7 +206,7 @@ body{
 }
 
 .tasks__cards{
-  width: 100%;
+  width: 77%;
   height: auto;
   padding: 1em;
   font-size: 1.15em;
@@ -211,10 +214,28 @@ body{
   flex-direction: column;
   border: 1px solid black;
   margin-bottom: 5vh;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+  background-color: white;
+  box-shadow: 1px 1px 11px black;
+}
+
+.tasks__cards--remove{
+  transition: 500ms;
+  opacity: 0;
 }
 
 .tasks__cards__iten{
-  margin: 0.5vh 0;
+  margin: 1.3vh 0;
+}
+
+.tasks__cards__iten strong{
+  font-weight: bold;
+}
+
+
+.tasks__cards__descricao{
+  white-space: break-spaces;
 }
 
 @media(max-width: 450px){

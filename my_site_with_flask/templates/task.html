@@ -12,7 +12,7 @@
                 <input id="tarefa" type="text" class="tasks__forms-input" placeholder="Informe a tarefa a ser realizada" name="tarefa">
 
                 <label for="descricao" class="tasks__label">Descrição</label>
-                <textarea class="tasks__forms-textarea" name="descricao" id="descricao" placeholder="Informe a descrição da tarefa."></textarea>
+                <textarea class="tasks__forms-textarea" name="descricao" id="descricao" placeholder="Informe a descrição da tarefa"></textarea>
                 <button class="tasks__btn" type="submit">Adicionar</button>
             </form>
         </div>
@@ -25,10 +25,10 @@
                 {% if listTask != None %}
                     {% for x in listTask %}
                     <div class="tasks__cards">
-                        <span class="tasks__cards__iten tasks__cards__tarefa"><strong>Tarefa: </strong>{{x.tarefa}}</span>
-                        <span class="tasks__cards__iten tasks__cards__descricao"><strong>Descrição: </strong>:{{x.descricao}}</span>
-                        <span class="tasks__cards__dia"><strong>Dia: </strong>{{x.dia}}</span>
-                        <span class="tasks__cards__hora"><strong>Hora: </strong>{{x.hora}}</span>
+                        <span class="tasks__cards__iten tasks__cards__tarefa"><strong  class="tasks__strong">Tarefa: </strong>{{x.tarefa}}</span>
+                        <span class="tasks__cards__iten tasks__cards__descricao"><strong class="tasks__strong">Descrição: </strong>{{x.descricao}}</span>
+                        <span class="tasks__cards__iten tasks__cards__dia"><strong class="tasks__strong">Dia: </strong>{{x.dia}}</span>
+                        <span class="tasks__cards__iten tasks__cards__hora"><strong class="tasks__strong">Hora: </strong>{{x.hora}}</span>
                     </div>
                     {% endfor %}
                 {% endif %}
@@ -37,4 +37,5 @@
     </div>
 
     <script src="{{url_for('static', filename='/js/tasks.js')}}"></script>
+    <script src="{{url_for('static', filename='/js/remover_task.js')}}"></script>
 {% endblock %}
