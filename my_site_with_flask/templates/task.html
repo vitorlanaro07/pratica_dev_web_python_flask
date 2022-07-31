@@ -11,13 +11,13 @@
                 <h1 class="tasks__titulo">Adicionar</h1>
                 <hr class="divisor divisor-botom">
             </div>
-            <form class="tasks__forms">
+            <form class="tasks__forms" method="post" action="/adicionar">
                 <label for="tarefa" class="tasks__label">Tarefa</label>
                 <input id="tarefa" type="text" class="tasks__forms-input" placeholder="Informe a tarefa a ser realizada" name="tarefa">
 
                 <label for="descricao" class="tasks__label">Descrição</label>
                 <textarea class="tasks__forms-textarea" name="descricao" id="descricao" placeholder="Informe a descrição da tarefa"></textarea>
-                <button class="tasks__btn" type="submit">Adicionar</button>
+                <button class="tasks__btn" type="submit" onclick="enviarDados()">Adicionar</button>
             </form>
         </div>
 
@@ -52,6 +52,5 @@
             </div>
         </div>
     </div>
-
-    <script src="{{url_for('static', filename='/js/tasks.js')}}"></script>
+    <script src="{{url_for('static', filename='js/tasks.js')}}"></script>
 {% endblock %}

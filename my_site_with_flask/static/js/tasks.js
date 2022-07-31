@@ -1,26 +1,16 @@
 var forms= document.querySelector(".tasks__forms");
 
-forms.addEventListener("submit", function (event) { 
+function enviarDados(){
     const formData = new FormData(forms);
-    
-    var hora = new Date().toLocaleTimeString();
-    var data = getData()
+    formData.append("dia", getData());
+    formData.append("hora", new Date().toLocaleTimeString());
 
-    formData.append("dia", data);
-    formData.append("hora", hora);
-
-    fetch('/task', {
-        method: 'POST',
-        body:formData
-    }).then(function(response){
-        console.log(response);
-    });
-
-
-})
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/adicionar"); 
+    xhr.send(formData);     
+}
 
 var task_list = document.querySelector(".tasks__apresentar");
-
 task_list.addEventListener("dblclick", (event) => {
     var task = event.target;
     var alvo;
@@ -40,21 +30,9 @@ task_list.addEventListener("dblclick", (event) => {
             }
         }  
     }
-
-    window.location.href = '/task/id/'+id;
+    window.location.href = '/task/'+id;
 
 });
 
-function getData() {
-    var dia_ano = new Date().toLocaleDateString()
-    dia = dia_ano.split("/")[1];
-    mes = dia_ano.split("/")[0];
-    ano = dia_ano.split("/")[2];
-    if (dia.length == 1){
-        dia = "0" + dia;
-    }
-    if (mes.length == 1){
-        mes = "0" + mes;
-    }
-    return (dia + "/" + mes + "/" + ano);
-}
+
+

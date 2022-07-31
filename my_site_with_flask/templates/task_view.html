@@ -12,28 +12,30 @@
     <hr class="divisor divisor-botom">
   </div>
   <div class="task__container__botoes">
-    <button id="botao-editar"><i class="fa-solid fa-pen-to-square"></i> Editar</button>
+    <button id="botao-editar" onclick="editarTask({{task.id}})"><i class="fa-solid fa-pen-to-square"></i> Editar</button>
     <button id="botao-apagar" onclick="window.location.href = '/delete/'+ {{task.id}}"><i class="fa-solid fa-trash-can"></i> Apagar</button>
   </div>
   <div class="tasks__apresentacao">  
     <div class="tasks__apresentacao__item"> 
       <h1 >Tarefa:</h1>
-      <p>{{task.tarefa}}</p>
+      <input type="text" name="" id="" class="tasks__forms-input input-edit" value="{{task.tarefa}}" disabled>
     </div>  
     <div class="tasks__apresentacao__item"> 
       <h1>Descrição:</h1>
-      <p>{{task.descricao}}</p>
+      <textarea class="tasks__forms-textarea span-edit" disabled>{{task.descricao}}</textarea>
     </div>
     <div class="tasks__apresentacao__item"> 
       <h1>Hora:</h1>
-      <p>{{task.hora}}</p>
+      <p class="hora__salva">{{task.hora}}</p>
     </div>
     <div class="tasks__apresentacao__item"> 
       <h1>Data:</h1>
-      <p>{{task.dia}}</p>
+      <p class="dia__salvo">{{task.dia}}</p>
     </div>
   </div>
-</div>
+  <div class="task__container__botoes botao-salvar">
+    <button disabled>Salvar</button>
+  </div>
 
-<script src="{{url_for('static', filename='/js/remover_task.js')}}"></script>
+<script src="{{url_for('static', filename='js/editar.js')}}"></script>
 {% endblock %}

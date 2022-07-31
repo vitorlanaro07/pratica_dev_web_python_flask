@@ -197,21 +197,21 @@ body{
 
 .tasks__forms-input{
   width: 75vw;
-  height: 5vh;
+  height: auto;
   font-size: 1em;
   font-family: auto;
 }
 
 .tasks__forms-textarea{
   font-size: 1.059em;
-  height: 18vh;
+  height: auto;
   width: 75vw;
   font-family: auto;
 }
 
 .tasks__btn{
   width: auto;
-  height: 5vh;
+  height: auto;
   font-size: 1.2em;
   margin: 2vh 0;
 }
@@ -223,12 +223,12 @@ body{
 
 .tasks__filtros input{
   font-size: 1em;
-  height: 5vh;
+  height: auto;
 }
 
 .tasks__filtros select{
   font-size: 1em;
-  height: 5.7vh;
+  height: auto;
 }
 
 .tasks__apresentar{
@@ -291,7 +291,8 @@ body{
   margin: 0 auto;
   box-shadow: 1px 1px 6px 1px black;
   border-radius: 6px;
-  height: 45vh;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .tasks__apresentacao__item{
@@ -303,6 +304,9 @@ body{
   font-weight: bold;
 }
 
+.botao-salvar{
+  margin-top: 2vh;
+}
 
 
 @media(max-width: 450px){
