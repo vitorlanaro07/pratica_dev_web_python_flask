@@ -141,8 +141,25 @@ body{
 .conteudo__central{
   display: flex;
   width: 100%;
+  flex-direction: column;
 }
 
+.navegacao{
+  font-size: 1em;
+  margin: 3vh 0 1vh 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.navegacao a{
+  text-decoration: none;
+  font-size: 1.4em;
+  color: blue;
+}
+.navegacao a:hover{
+  text-decoration: underline;
+  color: #f1ba55;
+}
 
 .tasks{
   display: flex;
@@ -150,8 +167,8 @@ body{
   width: 100%;
 }
 
-.tasks__adicionar{
-  margin: 10% 0%;
+.task__container{
+  margin: 0 0 10% 0;
 }
 
 .tasks__titulo{
@@ -199,6 +216,21 @@ body{
   margin: 2vh 0;
 }
 
+.tasks__filtros{
+  text-align: center;
+  margin: 0 0 2vh 0px;
+}
+
+.tasks__filtros input{
+  font-size: 1em;
+  height: 5vh;
+}
+
+.tasks__filtros select{
+  font-size: 1em;
+  height: 5.7vh;
+}
+
 .tasks__apresentar{
   display: flex;
   flex-wrap: wrap;
@@ -220,8 +252,12 @@ body{
   box-shadow: 1px 1px 11px black;
 }
 
+.tasks__links{
+  display: contents;
+}
+
 .tasks__cards--remove{
-  transition: 500ms;
+  transition: 1s;
   opacity: 0;
 }
 
@@ -237,6 +273,37 @@ body{
 .tasks__cards__descricao{
   white-space: break-spaces;
 }
+
+.task__container__botoes{
+  text-align: center;
+  margin: 0 0 2vh 0px;
+}
+
+.task__container__botoes button{
+      width: 45%;
+      height: 5vh;
+}
+
+.tasks__apresentacao{
+  border: 1px solid black;
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 6px 1px black;
+  border-radius: 6px;
+  height: 45vh;
+}
+
+.tasks__apresentacao__item{
+  margin: 1vh 0 2vh 2vw;
+}
+
+.tasks__apresentacao__item h1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
 
 @media(max-width: 450px){
   /* .cabecalho__content{

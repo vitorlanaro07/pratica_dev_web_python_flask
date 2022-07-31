@@ -29,10 +29,6 @@ def criar_objeto_task():
     hora = request.form['hora']
     return Task(tarefa, descricao, dia, hora)
 
-
-
-
-
 @app.route("/")
 def index():
     return render_template("base.html")
@@ -50,7 +46,17 @@ def task():
         return render_template("task.html",listTask=task_db)
     
 
+@app.route("/delete/<int:id>")
+def delete(id):
+    task = Task.query.get(id)
+    db.session.delete(task)
+    db.session.commit()
+    return redirect("/task")
 
+@app.route("/task/id/<int:id>")
+def task_view(id):
+    task = Task.query.get(id)
+    return render_template("task_view.html", task=task)
 
 
 if __name__ == "__main__":

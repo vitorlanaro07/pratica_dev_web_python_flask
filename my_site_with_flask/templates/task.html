@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 {% block title %}Index{% endblock %}
 {% block content %}
-
+    <div class="navegacao">
+        <p><a href="/">Index</a> >> <a href="/task">Task</a><p>
+    </div>
     <div class="tasks">
-        <div class="tasks__adicionar">
-            <hr class="divisor">
-            <h1 class="tasks__titulo">Adicionar</h1>
-            <hr class="divisor divisor-botom">
-            <form class="tasks__forms" method="post">
+        <div class="task__container">
+            <div class="titulo__divisor">
+                <hr class="divisor">
+                <h1 class="tasks__titulo">Adicionar</h1>
+                <hr class="divisor divisor-botom">
+            </div>
+            <form class="tasks__forms">
                 <label for="tarefa" class="tasks__label">Tarefa</label>
                 <input id="tarefa" type="text" class="tasks__forms-input" placeholder="Informe a tarefa a ser realizada" name="tarefa">
 
@@ -17,19 +21,32 @@
             </form>
         </div>
 
-        <div class="tasks__re-edi-apr">
-            <hr class="divisor">
-            <p class="oquefazer" style="text-align: center; text-align: center;font-size: 2.5em;font-style: italic;"> Tarefas</p>
-            <hr class="divisor divisor-botom">
+        <div class="tasks__visualizacao" >
+            <div class="titulo__divisor">
+                <hr class="divisor">
+                <p class="oquefazer" style="text-align: center; text-align: center;font-size: 2.5em;font-style: italic;"> Tarefas</p>
+                <hr class="divisor divisor-botom">
+            </div>
+            <div class="tasks__filtros">
+                <input type="text" placeholder="Buscar">
+                <select>
+                    <option>A-Z</option>
+                    <option>Z-A</option>
+                    <option>↑ Recente</option>
+                    <option>↓ Recente</option>
+                </select>
+            </div>
             <div class="tasks__apresentar">
                 {% if listTask != None %}
                     {% for x in listTask %}
-                    <div class="tasks__cards">
-                        <span class="tasks__cards__iten tasks__cards__tarefa"><strong  class="tasks__strong">Tarefa: </strong>{{x.tarefa}}</span>
-                        <span class="tasks__cards__iten tasks__cards__descricao"><strong class="tasks__strong">Descrição: </strong>{{x.descricao}}</span>
-                        <span class="tasks__cards__iten tasks__cards__dia"><strong class="tasks__strong">Dia: </strong>{{x.dia}}</span>
-                        <span class="tasks__cards__iten tasks__cards__hora"><strong class="tasks__strong">Hora: </strong>{{x.hora}}</span>
-                    </div>
+                        <div class="tasks__cards">
+                            <p id="id_task" hidden>{{x.id}}</p>
+                            <span class="tasks__cards__iten tasks__cards__tarefa"><strong  class="tasks__strong">Tarefa: </strong>{{x.tarefa}}</span>
+                            <span class="tasks__cards__iten tasks__cards__descricao"><strong class="tasks__strong">Descrição: </strong>{{x.descricao}}</span>
+                            <span class="tasks__cards__iten tasks__cards__dia"><strong class="tasks__strong">Dia: </strong>{{x.dia}}</span>
+                            <span class="tasks__cards__iten tasks__cards__hora"><strong class="tasks__strong">Hora: </strong>{{x.hora}}</span>
+                        </div>
+                    <!-- </a> -->
                     {% endfor %}
                 {% endif %}
             </div>
@@ -37,5 +54,4 @@
     </div>
 
     <script src="{{url_for('static', filename='/js/tasks.js')}}"></script>
-    <script src="{{url_for('static', filename='/js/remover_task.js')}}"></script>
 {% endblock %}
